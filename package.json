@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
   "scripts": {
     "dev-start": "webpack-dev-server --mode development",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "webpack --mode development",
     "heroku-postbuild": "webpack --mode production",
     "test": "react-scripts test",
